@@ -1,0 +1,53 @@
+*{
+  padding: 0px;
+  box-sizing: border-box;
+  /* margin: 0px; */
+}
+
+body{
+  background-color: crimson;
+}
+
+img{
+  width: 60px;
+}
+
+.big-con{
+  display: flex;
+  max-width: 600px;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 2px solid black;
+  line-height: 30px;
+}
+
+button{
+  padding: 2px;
+  color:black;
+  margin-bottom: 20px;
+}
+
+
+
+section{
+  background-color: gainsboro;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  color: black;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+@media screen and (min-width:400px){
+  section{
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
+
